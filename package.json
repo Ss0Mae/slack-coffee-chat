@@ -1,0 +1,27 @@
+{
+  "name": "slack-coffee-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ss0Mae/slack-coffee-chat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ss0Mae/slack-coffee-chat/issues"
+  },
+  "homepage": "https://github.com/Ss0Mae/slack-coffee-chat#readme",
+  "dependencies": {
+    "@slack/bolt": "^4.4.0",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "openai": "^5.10.1",
+    "sqlite3": "^5.1.7"
+  }
+}
