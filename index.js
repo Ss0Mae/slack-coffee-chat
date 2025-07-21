@@ -193,7 +193,7 @@ async function runMatchingJob() {
         });
         await app.client.chat.postMessage({
           channel: b,
-          text: `<@${a}> 님과 매칭되었습니다! 즐거운 커피챗 되세요.`,
+          text: `<@${a}> 님과 매칭되었습니다! 즐거운 커피챗 되세요!`,
         });
       }
     }
