@@ -183,7 +183,7 @@ async function runMatchingJob() {
       if (pair.length < 2) {
         await app.client.chat.postMessage({
           channel: pair[0],
-          text: '이번 매칭에는 함께할 상대가 없었습니다. 다음 기회를 기다려주세요!!!',
+          text: '이번 매칭에는 함께할 상대가 없었습니다. 다음 기회를 기다려주세요!!',
         });
       } else {
         const [a, b] = pair;
