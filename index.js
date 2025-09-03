@@ -199,7 +199,7 @@ async function runMatchingJob() {
     }
 
     // Reset participation after matching
-    db.run('UPDATE users SET participating=0 WHERE participating=1');
+    db.run('UPDATE users SET participating=0 WHERE participating=1')
   });
 }
 
